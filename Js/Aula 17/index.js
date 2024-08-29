@@ -1,8 +1,19 @@
 const alunos = ["Luiz", "Maria", "João"];
 
-const removido = alunos.shift();
-console.log(removido);
-console.log(alunos);
+console.log(typeof alunos);
+console.log(alunos instanceof Array);
+
+// alunos.push("Eduardo");
+// alunos.push("Mariana");
+
+//console.log(alunos[50]);
+
+// delete alunos[1];
+// console.log(alunos);
+// const removido = alunos.shift();
+// console.log(removido);
+// console.log(alunos);
+
 // alunos.unshift("Luiza"); // Adiciona no começo
 // alunos.unshift("Adriano");
 

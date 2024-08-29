@@ -152,3 +152,26 @@ Explicação do código
 Neste exemplo2 acima podemos ver que ao usar shift(); acabou removendo
 o nome que estava no último índice do array, e para mostrar o índice
 removido acabamos de usar uma variável chamado "removido".
+
+Delete
+
+Se a gente quiser deletar algum índice no nosso array basta a
+gente seguir o exemplo abaixo:
+
+Exemplo1
+
+const alunos = ["Luiz", "Maria", "João"];
+
+delete alunos[1];
+console.log(alunos);
+
+Result
+
+[ 'Luiz', <1 empty item>, 'João' ]
+
+Explicação do código
+
+Em relação a código acima podemos ver que deletemos
+o índice[1] da variável alunos, onde o resultado deu
+<1 empty item>, isso quer dizer o índice foi deletado,
+mas dentro do array mostra a mensagem deletada.
