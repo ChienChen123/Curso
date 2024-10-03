@@ -1,2 +1,0 @@
-# Curso
-Faculdade e Curso
